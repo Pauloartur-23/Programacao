@@ -1,0 +1,26 @@
+<meta charset="UTF-8">
+<script>
+    /*
+    PROBLEMA: ANO BISSEXTO
+    Recebe um ano e informa se ele é bissexto ou não.
+    */
+
+    //ENTRADA
+    const ano = Number(prompt("Digite um número."));
+    
+    //PROCESSAMENTO
+    const calculo = 4 * Math.ceil(ano / 4);
+    let multiploQuatro
+
+    if (calculo == ano) {
+        multiploQuatro = calculo
+    } else {
+        alert(`Esse ano não é bissexto.`)
+    };
+    if (multiploQuatro == calculo) {
+        const multiploQuatrocentos = 400 * Math.ceil(ano / 400);
+    };
+    if (multiploQuatrocentos == multiploQuatro) {
+          
+    }
+</script>
